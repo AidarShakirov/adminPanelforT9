@@ -23,7 +23,7 @@
 
 	</tr>
 	<?php
-    require '../conn.php';
+    reqire '../conn.php';
 	
 	$result = mysqli_query($conn,"SELECT * FROM kl");
 	$i=0;
