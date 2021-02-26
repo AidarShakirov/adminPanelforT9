@@ -24,7 +24,7 @@ echo "<br><table border = 1 align=center>
 <th> Специалисты</th>
 <th>Клиенты</th>
 <th>Организация</th>
-<th>Отделение</th>
+<th>Отделениee</th>
 ";
 while($row_sp = mysqli_fetch_array($res_sp)){ echo '<tr><td>'.$row_sp[0].'</td>';
     while($row_kl = mysqli_fetch_array($res_kl)){ echo '<td>'.$row_kl[0].'</td>';
